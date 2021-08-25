@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="300.0" minWidth="300.0" prefHeight="309.0" prefWidth="313.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StephanWardSchedulingApp.controller.LoginFormController">
+   <children>
+      <Button fx:id="loginButton" alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="161.0" mnemonicParsing="false" onAction="#loginButton" prefHeight="31.0" prefWidth="113.0" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets></Button>
+      <Label fx:id="username" layoutX="20.0" layoutY="80.0" />
+      <Label fx:id="password" layoutX="20.0" layoutY="119.0" />
+      <TextField fx:id="usernameInput" layoutX="114.0" layoutY="70.0" prefHeight="32.0" prefWidth="156.0">
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding></TextField>
+      <Label fx:id="zoneIdLabel" alignment="CENTER" layoutX="66.0" layoutY="31.0" prefHeight="31.0" prefWidth="231.0" text="zone" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Italic" size="12.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets></Label>
+      <PasswordField fx:id="passwordInput" layoutX="114.0" layoutY="113.0" prefHeight="32.0" prefWidth="156.0">
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding></PasswordField>
+      <Label fx:id="loginLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="7.0" prefHeight="39.0" prefWidth="252.0" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>
